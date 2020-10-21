@@ -1,0 +1,17 @@
+.sidebar {
+  height: 91vh;
+  padding: 50px;
+}
+
+.sidebar li {
+  padding: 15px 25px;
+}
+
+.sidebar img {
+  margin-right: 5px;
+  filter: grayscale(1) contrast(10)
+}
+
+.sidebar span {
+  color: #000;
+}

@@ -1,0 +1,31 @@
+.clients__feedbackCard {
+  border: 1px solid #BFBFBF;
+  border-radius: 5px;
+  padding: 20px
+}
+
+.card__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.card__img {
+  max-width: 100%;
+}
+
+.card__nameArea {
+  color: #000 !important;
+  font-family: 'poppins', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.3px;
+}
+
+.card__nameArea h5 {
+  font-weight: 600;
+  font-size: 18px
+}
+
+.card__nameArea p {
+  font-weight: 600;
+  font-size: 13px
+}

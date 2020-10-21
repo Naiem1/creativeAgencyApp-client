@@ -1,0 +1,22 @@
+.contactUs {
+  background: #FBD062;
+  padding: 60px
+}
+
+.contactUs__text h2 {
+  padding-right: 150px;
+  font-family: 'poppins', sans-serif;
+}
+
+.contactUs__text p {
+  padding-right: 130px;
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #444;
+  font-family: 'poppins', sans-serif;
+}
+
+.contactUs small {
+  letter-spacing: 1.5px;
+  margin-top: 80px;
+}

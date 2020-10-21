@@ -1,0 +1,102 @@
+.services {
+  margin: 100px 0 0px 0;
+  padding: 130px 0;
+  overflow: hidden;
+
+}
+
+.services h2 {
+  font-size: 34px;
+}
+
+.servicesInfo__Container {
+  margin-top: 100px;
+}
+
+
+
+.services__info {
+ 
+  text-align: center;
+  /* margin-bottom: 120px; */
+  cursor: pointer;
+  padding: 0px 8px;
+}
+
+.services__info div {
+  padding: 30px 55px;
+  background: #fff;
+  border-radius: 5px
+
+}
+
+.servicesInfo__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.slick-slider img {
+  margin: 0px auto 20px;
+}
+
+.services__info h5 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.services__info p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-family: 'poppins', sans-serif;
+}
+
+
+/* slider styling */
+.slick-dots button {
+  position: absolute;
+  bottom: -70px;
+ 
+}
+
+.slick-arrow {
+  width: 100px;
+}
+
+.slick-prev::before, 
+.slick-next::before {
+  content: '→';
+  background: #000;
+  border-radius: 50%
+}
+
+.slick-dots li button:before {
+
+    font-size: 14px;
+
+    position: absolute;
+   
+}
+
+th {
+  font-family: 'poppins', sans-serif;
+  font-size: 14px;
+  background: #F5F6FA;
+}
+
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+th:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.table__container {
+  overflow-x: auto;
+}
+
+.table {
+  overflow-x: auto;
+ 
+}

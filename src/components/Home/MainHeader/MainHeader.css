@@ -1,0 +1,22 @@
+.main__header {
+  margin-top: 20px;
+}
+
+.main__header .left {
+  padding-right: 110px;
+}
+
+.main__header .left h1{
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.main__header .left p {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark__button {
+  background: #000;
+  text-decoration: none;
+}

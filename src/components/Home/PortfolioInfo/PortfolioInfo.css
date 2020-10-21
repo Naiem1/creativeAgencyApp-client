@@ -1,0 +1,10 @@
+.portfolio__info {
+  
+}
+
+.portfolio__img {
+  height: 330px;
+  width: 445px;
+  object-fit: cover;
+  border-radius: 5px;
+}

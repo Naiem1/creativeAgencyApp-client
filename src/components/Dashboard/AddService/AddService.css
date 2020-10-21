@@ -1,0 +1,9 @@
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 0;
+}
+
+
+.addService table td, .table th {
+  border-top: 0;
+}

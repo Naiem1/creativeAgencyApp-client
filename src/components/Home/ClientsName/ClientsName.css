@@ -1,0 +1,6 @@
+.client__logo {
+  object-fit: cover;
+  height: 50px;
+  /* width: 100%; */
+  filter: grayscale(80%);
+}
