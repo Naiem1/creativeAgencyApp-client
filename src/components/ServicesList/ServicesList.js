@@ -21,7 +21,7 @@ const ServicesList = () => {
 
   const {email} = loggedInUser;
   useEffect(() => {
-    fetch("http://localhost:5000/allOrders?email=" + email)
+    fetch("https://enigmatic-waters-05452.herokuapp.com/allOrders?email=" + email)
       .then(res => res.json())
       .then(data => {
         setDataInfo(data);

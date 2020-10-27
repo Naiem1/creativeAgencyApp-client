@@ -27,7 +27,7 @@ const PostReviews = () => {
   const handleReviewSubmit = (e) => {
     if (displayName && input.designation && input.description) {
       const review = {...input, displayName, photoURL}
-      fetch("http://localhost:5000/review", {
+      fetch("https://enigmatic-waters-05452.herokuapp.com/review", {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(review)

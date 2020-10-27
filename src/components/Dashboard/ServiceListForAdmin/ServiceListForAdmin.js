@@ -5,7 +5,7 @@ const ServiceListForAdmin = () => {
 
   const [allOrders, setAllOrders] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:5000/addOrdersForAdmin')
+    fetch('https://enigmatic-waters-05452.herokuapp.com/addOrdersForAdmin')
       .then(res => res.json())
       .then(data => setAllOrders(data))
     .catch(err => console.log(err))

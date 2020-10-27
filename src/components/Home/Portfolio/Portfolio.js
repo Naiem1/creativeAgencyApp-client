@@ -57,10 +57,10 @@ const Portfolio = () => {
 
   const [portfolio, setPortfolio] = useState([])
   useEffect(() => {
-    fetch('http://localhost:5000/portfolio')
+    fetch('https://enigmatic-waters-05452.herokuapp.com/portfolio')
       .then(res => res.json())
     .then(data => setPortfolio(data))
-  }, [portfolio])
+  }, [])
 
 
   return (

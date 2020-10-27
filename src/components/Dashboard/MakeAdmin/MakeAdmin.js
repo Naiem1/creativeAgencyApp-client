@@ -28,7 +28,7 @@ const MakeAdmin = () => {
   const handleSubmit = (e) => {
     if (input.email) {
       
-      fetch('http://localhost:5000/addAdminEmail', {
+      fetch('https://enigmatic-waters-05452.herokuapp.com/addAdminEmail', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({email: input.email})

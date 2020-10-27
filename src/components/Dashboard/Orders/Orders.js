@@ -46,7 +46,7 @@ const Orders = ({ findData }) => {
     if (input.title || selectedService.name && input.price || selectedService.price && loggedInUser.email) {
       history.push('/dashboard/order')
       const data = { ...input, displayName, email, ...selectedService };
-        fetch("http://localhost:5000/addOrder", {
+        fetch("https://enigmatic-waters-05452.herokuapp.com/addOrder", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)

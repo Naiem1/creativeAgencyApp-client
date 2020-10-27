@@ -1,3 +1,37 @@
+
+Creative Agency MERN Project
+Project description web-based single page Application which made by MERN technology with admin and user
+Role. Admin can control and add products from the dashboard and users can purchase
+any products and give reviews that show the home page. This website protected by firebase google auth that ensure the authorized users or admins access
+
+Technology: Reactjs, Nodejs, Express Js, MongoDB, React-Bootstrap, Fire-auth,Firebase Hosting, Heroku Deployment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

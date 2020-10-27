@@ -37,7 +37,7 @@ const AddService = () => {
     formData.append('details', info.details);
     formData.append('price', info.price);
 
-    fetch('http://localhost:5000/addService', {
+    fetch('https://enigmatic-waters-05452.herokuapp.com/addService', {
       method: 'POST',
       body: formData
     })

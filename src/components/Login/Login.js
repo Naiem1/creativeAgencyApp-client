@@ -30,7 +30,7 @@ const Login = () => {
       .then(data => {
         console.log(data.user);
         const userInfo = data.user;
-        fetch('http://localhost:5000/isAdmin', {
+        fetch('https://enigmatic-waters-05452.herokuapp.com/isAdmin', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email: data.user.email })

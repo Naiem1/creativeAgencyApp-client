@@ -61,10 +61,10 @@ const ClientsFeedback = () => {
 
   const [feedback, setFeedback] = useState([]);
   useEffect(() => {
-  fetch('http://localhost:5000/feedback')
+  fetch('https://enigmatic-waters-05452.herokuapp.com/feedback')
     .then(res => res.json())
   .then(data => setFeedback(data))
-}, [feedback])
+}, [])
   
   console.log(feedback)
   return (
